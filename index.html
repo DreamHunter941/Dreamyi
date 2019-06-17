@@ -1,0 +1,911 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>梦翊工作室</title>
+	<style type="text/css">
+		.w{
+			width:990px;
+			margin: 0 auto;
+		}
+		.copyright{
+			margin-top:10px;
+		}
+		#footer{
+    		text-align:center;
+			font-size:12px;
+			color:#FFF;
+			padding-top: 25px;
+
+		}
+		.w a{color: #FFF;text-decoration: none}
+		.writeColor {
+			background-color: #FFF;
+		}
+
+		.graycolor {
+			background-color: #F0F0F0;
+		}
+
+		#outside {
+			color: #FFF;
+			background-repeat: no-repeat;
+		}
+
+		#outside #main #head #navigation ul li a:link {
+			text-decoration: none;
+			color: #FFF;
+		}
+
+		#main #home {
+			margin-top: 300px;
+			margin-right: 400px;
+			margin-left: 400px;
+			-webkit-transition: margin-top 2s;
+			transition: margin-top 2s;
+		}
+
+		#main #home h1 {
+			font-family: "华文隶书";
+			font-size: 50px;
+		}
+
+		#main #home h2 {
+			font-family: "华文新魏";
+			font-size: 28px;
+		}
+
+		#footer #f1 {
+			text-align: center;
+			padding-top: 25px;
+		}
+
+		#head {
+			height: 52px;
+		}
+
+		#head #dream {
+			float: left;
+			width: 150px;
+			height: 50px;
+			font-family: "华文行楷";
+			color: #FFF;
+			font-size: 36px;
+			margin-left: 7px;
+			margin-top: 2px;
+		}
+
+		body {
+			margin: 0;
+		}
+
+		#head #navigation {
+			width: 1050px;
+			float: right;
+			height: 30px;
+
+		}
+
+		#head #navigation ul {
+			float: none;
+			list-style-type: none;
+		}
+
+		#head #navigation ul li {
+			list-style-type: none;
+			float: left;
+			margin-left: 10px;
+			margin-right: 50px;
+		}
+
+		#outside #main {
+			height: 665px;
+			width: 1280px;
+			margin: 0 auto;
+			clear: both;
+			background-image: url(imgs/bg.jpg);
+			background-repeat: no-repeat;
+		}
+
+		.centerlog {
+			width: 1280px;
+			margin-left: auto;
+			margin-right: auto;
+
+		}
+
+		#about {
+			height: 450px;
+			width: 1280px;
+			background-color: #f0f0f0;
+			color: #000;
+			margin-top: -36px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#services {
+			height: 500px;
+			background-color: #FFF;
+			color: #000;
+		}
+
+		#services #title h1 {
+			font-family: "华文隶书";
+			font-size: 50px;
+			text-align: center;
+		}
+
+		#services #neirong1 {
+			float: left;
+			width: 350px;
+			margin-left: 80px;
+			height: 150px;
+			margin-top: 20px;
+		}
+
+		#services #neirong2 {
+			width: 350px;
+			float: left;
+			height: 150px;
+			margin-left: 75px;
+			margin-top: 20px;
+		}
+
+		#services #neirong3 {
+			width: 350px;
+			float: left;
+			margin-left: 75px;
+			clear: right;
+			margin-top: 20px;
+			height: 150px;
+		}
+
+		#services #neirong6 {
+			float: left;
+			height: 150px;
+			width: 350px;
+			margin-left: 75px;
+			margin-top: 20px;
+		}
+
+		#services #neirong4 {
+			width: 350px;
+			margin-left: 80px;
+			height: 150px;
+			clear: both;
+			float: left;
+			margin-top: 20px;
+		}
+
+		#services #neirong5 {
+			float: left;
+			height: 150px;
+			width: 350px;
+			margin-left: 75px;
+			margin-top: 20px;
+		}
+
+		#gallery {
+			height: 650px;
+			background-color: #F0F0F0;
+			color: #000;
+		}
+
+		#gallery #g1 {
+			float: left;
+			height: 220px;
+			width: 280px;
+			margin-left: 115px;
+			margin-top: 20px;
+		}
+
+		#gallery #g1 #Image1 {
+			border: 7px groove #f0f0f0;
+		}
+
+		#team {
+			background-color: #FFFFFF;
+			height: 650px;
+			color: #000;
+		}
+
+		#concact {
+			height: 600px;
+			background-color: #F0F0F0;
+			color: #000;
+		}
+
+		#concact #c1 #form1 p #textfield {
+			height: 30px;
+			font-family: "华文隶书";
+			font-size: 18px;
+			width: 400px;
+			margin-bottom: 4px;
+			background-color: transparent;
+			border: 1px solid #3FF;
+		}
+
+		#footer {
+			height: 100px;
+			background-color: #000;
+		}
+
+		#outside #about h1 {
+			font-size: 50px;
+			text-align: center;
+			font-family: "华文隶书";
+			padding-top: 35px;
+		}
+
+		#about #neirong {
+			margin-right: auto;
+			margin-left: auto;
+			-webkit-transition: margin-top 2s;
+			transition: margin-top 2s;
+			padding-right: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			width: 800px;
+		}
+
+		#services #title {
+			margin-right: 400px;
+			margin-left: 400px;
+			padding-top: 10px;
+		}
+
+		#gallery #g2 {
+			height: 220px;
+			width: 280px;
+			margin-left: 100px;
+			float: left;
+			margin-top: 20px;
+		}
+
+		#gallery #g3 {
+			clear: right;
+			height: 220px;
+			width: 280px;
+			margin-left: 100px;
+			float: left;
+			margin-top: 20px;
+		}
+
+		#gallery #g4 {
+			height: 220px;
+			width: 280px;
+			margin-left: 115px;
+			float: left;
+			margin-top: 20px;
+		}
+
+		#gallery #g5 {
+			float: left;
+			height: 220px;
+			width: 280px;
+			margin-left: 100px;
+			margin-top: 20px;
+		}
+
+		#gallery #g6 {
+			float: left;
+			height: 220px;
+			width: 280px;
+			margin-left: 100px;
+			margin-top: 20px;
+		}
+
+		#about #neirong p {
+			text-indent: 2em;
+			word-spacing: 0em;
+			letter-spacing: 1.5px;
+		}
+
+		#gallery #title2 {
+			width: 400px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-top: 20px;
+		}
+
+		#gallery #title2 h1 {
+			font-family: "华文隶书";
+			font-size: 50px;
+			text-align: center;
+		}
+
+		#team #t1 {
+			float: left;
+			height: 450px;
+			width: 200px;
+			margin-left: 80px;
+			margin-top: 40px;
+		}
+
+		#team #title3 {
+			width: 400px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-top: 20px;
+		}
+
+		#team #title3 h1 {
+			font-family: "华文隶书";
+			font-size: 50px;
+			text-align: center;
+		}
+
+		#gallery #g4 #Image4 {
+			border: 7px groove #f0f0f0;
+		}
+
+		#gallery #g2 #Image2 {
+			border: 7px groove #f0f0f0;
+		}
+
+		#gallery #g5 #Image5 {
+			border: 7px groove #f0f0f0;
+		}
+
+		#gallery #g3 #Image3 {
+			border: 7px groove #F0F0F0;
+		}
+
+		#gallery #g6 #Image6 {
+			border: 7px groove #f0f0f0;
+		}
+	</style>
+	<link href="css/navigation.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		#team #t2 {
+			float: left;
+			height: 450px;
+			width: 200px;
+			margin-left: 100px;
+			margin-top: 40px;
+		}
+
+		#team #t3 {
+			float: left;
+			height: 450px;
+			width: 200px;
+			margin-left: 100px;
+			margin-top: 40px;
+		}
+
+		#team #t4 {
+			float: left;
+			height: 450px;
+			width: 200px;
+			margin-left: 100px;
+			margin-top: 40px;
+		}
+
+		#team h1 {
+			text-align: center;
+		}
+
+		#team p img {
+			margin-left: 35px;
+		}
+
+		#team h2 {
+			text-align: center;
+		}
+
+		#concact #title4 {
+			width: 400px;
+			margin-right: auto;
+			margin-left: auto;
+			padding-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		#concact #title4 h1 {
+			font-family: "华文隶书";
+			font-size: 50px;
+			text-align: center;
+		}
+
+		#concact #c1 {
+			width: 419px;
+			height: 400px;
+			margin-left: 200px;
+			float: left;
+		}
+
+		#concact #c2 {
+			width: 300px;
+			float: left;
+			margin-left: 20px;
+			height: 450px;
+			font-family: "华文隶书";
+			font-size: 18px;
+		}
+
+		#concact #c2 p img {
+			float: left;
+		}
+
+		#concact #c2 #q1 {
+			width: 200px;
+			float: left;
+			height: 42px;
+			padding-top: 20px;
+		}
+
+		#concact #c2 #q5 {
+			width: 200px;
+			float: left;
+			height: 40px;
+			padding-top: 20px;
+		}
+
+		#concact #c2 #q3 {
+			width: 200px;
+			float: left;
+			height: 42px;
+			padding-top: 20px;
+		}
+
+		#services #neirong1 #s1 {
+			width: 292px;
+			float: left;
+		}
+
+		#services #s2 {
+			width: 292px;
+			float: left;
+		}
+
+		#services img {
+			float: left;
+		}
+
+		#services #s6 {
+			width: 290px;
+			float: left;
+		}
+
+		#services #s5 {
+			width: 292px;
+			float: left;
+		}
+
+		#services #s4 {
+			width: 292px;
+			float: left;
+		}
+
+		#services #s3 {
+			width: 290px;
+			float: left;
+		}
+
+		#concact #c2 #q {
+			width: 65px;
+			float: left;
+			height: 62px;
+		}
+
+		#concact #c2 #q4 {
+			width: 65px;
+			float: left;
+		}
+
+		#concact #c2 #q2 {
+			width: 65px;
+			float: left;
+			height: 62px;
+		}
+
+		#concact #c1 #form1 p #textfield2 {
+			height: 30px;
+			font-family: "华文隶书";
+			font-size: 18px;
+			width: 400px;
+			margin-bottom: 4px;
+			background-color: transparent;
+			border: 1px solid #3FF;
+		}
+
+		#concact #c1 #form1 p #textfield3 {
+			height: 30px;
+			font-family: "华文隶书";
+			font-size: 18px;
+			width: 400px;
+			margin-bottom: 4px;
+			background-color: transparent;
+			border: 1px solid #3FF;
+		}
+
+		#concact #c1 #form1 p #textarea {
+			height: 90px;
+			font-family: "华文隶书";
+			font-size: 18px;
+			width: 398px;
+			margin-bottom: 4px;
+			background-color: transparent;
+			border: 1px solid #3FF;
+		}
+
+		#concact #c1 #form1 p #button {
+			font-family: "华文隶书";
+			font-size: 18px;
+			height: 40px;
+			width: 70px;
+			margin-right: 30px;
+			background-color: transparent;
+			border: 1px solid #6FF;
+		}
+
+		#outside #concact #c2 p img {
+			float: none;
+		}
+
+		#concact #c1 #form1 p #button2 {
+			font-family: "华文隶书";
+			font-size: 18px;
+			height: 40px;
+			width: 70px;
+			margin-right: 30px;
+			background-color: transparent;
+			border: 1px solid #6FF;
+		}
+
+		#apDiv1 {
+			position: fixed;
+			width: 28px;
+			height: 137px;
+			z-index: 1;
+			right: 0;
+			top: 247px;
+		}
+
+		#outside #main #head #navigation ul li a:hover {
+			text-decoration: none;
+			color: #FFF;
+			border-bottom-width: 3px;
+			border-bottom-style: solid;
+			border-bottom-color: #FFF;
+			padding-bottom: 7px;
+		}
+
+		#outside #main #head #navigation ul li a:visited {
+			text-decoration: none;
+			color: #FFF;
+		}
+
+		#services h2 a:link {
+			color: #000;
+			text-decoration: none;
+		}
+
+		#services h2 a:hover {
+			color: #000;
+			text-decoration: none;
+		}
+
+		#services h2 a:visited {
+			color: #000;
+			text-decoration: none;
+		}
+	</style>
+	<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		function MM_displayStatusMsg(msgStr) { //v1.0
+			window.status = msgStr;
+			document.MM_returnValue = true;
+		}
+		function MM_preloadImages() { //v3.0
+			var d = document; if (d.images) {
+				if (!d.MM_p) d.MM_p = new Array();
+				var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+					if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+			}
+		}
+
+		function MM_swapImgRestore() { //v3.0
+			var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+		}
+
+		function MM_findObj(n, d) { //v4.01
+			var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+				d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+			}
+			if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+			for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+			if (!x && d.getElementById) x = d.getElementById(n); return x;
+		}
+
+		function MM_swapImage() { //v3.0
+			var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+				if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+		}
+		function MM_effectShake(targetElement) {
+			Spry.Effect.DoShake(targetElement);
+		}
+	</script>
+</head>
+
+<body
+	onload="MM_displayStatusMsg('Welcom to our studio');return document.MM_returnValue;MM_preloadImages('imgs/gallery-5.jpg','imgs/J.jpg','imgs/pic6.jpg','imgs/gallery-7.jpg','imgs/s5.jpg','imgs/erefefre.png')">
+	<div id="outside"><a name="home1" id="home1"></a>
+
+		<div class="writeColor">
+			<div id="main" style="padding-bottom: 10px">
+				<div id="apDiv1">
+					<a href="#home1"><img src="imgs/ljhd.png" width="20" height="21" onclick="MM_effectShake(this)"></a>
+					<a href="#about1"><img src="imgs/ljhd.png" width="20" height="21"
+							onclick="MM_effectShake(this)" /></a><a href="#services1"><img src="imgs/ljhd.png"
+							width="20" height="21" onclick="MM_effectShake(this)" /></a><a href="#gallery1"><img
+							src="imgs/ljhd.png" width="20" height="21" onclick="MM_effectShake(this)" /></a><a
+						href="#team1"><img src="imgs/ljhd.png" width="20" height="21"
+							onclick="MM_effectShake(this)" /></a><a href="#concact1"><img src="imgs/ljhd.png" width="20"
+							height="21" onclick="MM_effectShake(this)" /></a></div>
+				<div id="head">
+					<div id="dream"><img src="imgs/LOGO.png" width="193" height="65" /></div>
+					<div id="navigation">
+						<ul>
+							<li><a href="#home1">Home</a></li>
+							<li><a href="#about1">About</a></li>
+							<li><a href="#services1">Services</a></li>
+							<li><a href="#gallery1">Gallery</a></li>
+							<li><a href="#team1">Team</a></li>
+							<li><a href="#concact1">Concact</a></li>
+						</ul>
+
+					</div>
+				</div>
+
+				<div id="home">
+					<h1 align="center">梦翊工作室</h1>
+					<h2 align="center">一家致力于IT行业的工作室</h2>
+				</div>
+				<script>
+					window.onload = function () {
+						document.getElementById("home").style.marginTop = "120px";
+					}
+				</script>
+			</div>
+		</div>
+		<div class="graycolor">
+			<div id="about" class="centerlog"><a name="about1" id="about1"></a>
+				<div id="neirong">
+					<h1>About us</h1>
+					<p>Dream yi studio which was established in 2016, guangdong which composed vocational and technical
+						college, created jointly by several college students. For fellow tzu chi and put into the same
+						dream, everyone has a bright personality and creativity, judging from the view of original trend
+						in today's economic market, summary appears today in the IT industry to the powerful influence
+						of market economy and their own huge development potential.</p>
+					<p>Holding the tenet of &quot;customer first, innovation first&quot;, the rapid rise in the network.
+						Has rich experience as a copywriter studio, has for many enterprises to provide services. With
+						cutting-edge quality and advanced service, obtained each big enterprise, and become a permanent
+						partner.</p>
+
+				</div>
+
+
+
+
+			</div>
+		</div>
+		<div class="writeColor">
+			<div id="services" class="centerlog"><a name="services1" id="services1"></a>
+				<div id="title">
+					<h1>what we do</h1>
+				</div>
+				<div id="neirong1"><img src="imgs/andirnod.png" width="58" height="58" />
+					<div id="s1">
+						<h2> &nbsp;<a href="page/ios.html">IOS APP</a></h2>
+						<p>We have a first-class IOS engineers, have skilled software development technology, can meet
+							your various requirements for the software.</p>
+					</div>
+				</div>
+				<div id="neirong2">
+					<img src="imgs/ios.png" width="58" height="58" />
+					<div id="s2">
+						<h2>&nbsp;<a href="page/android.html">Android APP</a></h2>
+						<p>Nowadays, the surge of mobile phone users in the Android APP has a considerable profit space,
+							our team can produce excellent products</p>
+					</div>
+				</div>
+				<div id="neirong3">
+					<img src="imgs/windown.png" width="59" height="59" />
+					<div id="s3">
+						<h2>&nbsp;<a href="page/windows.html">Windows APP</a></h2>
+						<p>We have mature technology in Windows APP design, can according to your request design you
+							satisfied with the products</p>
+					</div>
+				</div>
+				<div id="neirong4"><img src="imgs/web.png" width="58" height="58" />
+					<div id="s4">
+						<h2>&nbsp;<a href="page/UI.html">UI Design </a></h2>
+						<p>We can design for you elegant and attractive website, for your company to provide a good
+							network image. </p>
+					</div>
+				</div>
+				<div id="neirong5"><img src="imgs/cilun.png" width="57" height="57" />
+					<div id="s5">
+						<h2>&nbsp;<a href="page/SEO.html">SEO Services</a></h2>
+						<p>Search ranking is very important for a company, we are a good team for your company to adjust
+							the structure of web page.</p>
+					</div>
+				</div>
+				<div id="neirong6"><img src="imgs/wifi.png" width="59" height="59" />
+					<div id="s6">
+						<h2>&nbsp;<a href="page/MP.html">MP Services</a></h2>
+						<p>WeChat as a kind of new media platform, has a broad space for development, our team can
+							provide you with the public.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="graycolor">
+			<div id="gallery" class="centerlog"><a name="gallery1" id="gallery1"></a>
+				<div id="title2">
+					<h1>Our Gallery</h1>
+				</div>
+				<div id="g1"><img src="imgs/4.jpg" width="280" height="220" id="Image1"
+						onmouseover="MM_swapImage('Image1','','imgs/gallery-5.jpg',1)"
+						onmouseout="MM_swapImgRestore()" /></div>
+				<div id="g2"><img src="imgs/5.jpg" width="280" height="220" id="Image2"
+						onmouseover="MM_swapImage('Image2','','imgs/s3.jpg',1)" onmouseout="MM_swapImgRestore()" />
+				</div>
+				<div id="g3"><img src="imgs/6.jpg" width="280" height="220" id="Image3"
+						onmouseover="MM_swapImage('Image3','','imgs/J.jpg',1)" onmouseout="MM_swapImgRestore()" /></div>
+				<div id="g4"><img src="imgs/s4.jpg" width="280" height="220" id="Image4"
+						onmouseover="MM_swapImage('Image4','','imgs/pic6.jpg',1)" onmouseout="MM_swapImgRestore()" />
+				</div>
+				<div id="g5"><img src="imgs/pic7.jpg" width="280" height="220" id="Image5"
+						onmouseover="MM_swapImage('Image5','','imgs/gallery-7.jpg',1)"
+						onmouseout="MM_swapImgRestore()" /></div>
+				<div id="g6"><img src="imgs/8.jpg" width="280" height="220" id="Image6"
+						onmouseover="MM_swapImage('Image6','','imgs/s5.jpg',1)" onmouseout="MM_swapImgRestore()" />
+				</div>
+			</div>
+		</div>
+		<div id="team" class="centerlog"><a name="team1" id="team1"></a>
+			<div id="title3">
+				<h1>Our Team</h1>
+			</div>
+			<div id="t1">
+				<img src="imgs/team-3.png" width="200" height="200" />
+				<h1>Cynthia</h1>
+				<h2>CEO</h2>
+				<p><img src="imgs/im-sprite.png" width="146" height="39" id="Image7"
+						onmouseover="MM_swapImage('Image7','','imgs/erefefre.png',1)" onmouseout="MM_swapImgRestore()"
+						align="middle" /></p>
+			</div>
+			<div id="t2">
+				<img src="imgs/team-4.png" width="200" height="200" />
+				<h1>Leslie</h1>
+				<h2>CBO</h2>
+				<p><img src="imgs/im-sprite.png" width="146" height="39" id="Image8"
+						onmouseover="MM_swapImage('Image8','','imgs/erefefre.png',1)"
+						onmouseout="MM_swapImgRestore()" /></p>
+			</div>
+			<div id="t3">
+				<img src="imgs/team3.png" width="200" height="200" />
+				<h1>Michelle</h1>
+				<h2>CIO</h2>
+				<p><img src="imgs/im-sprite.png" width="146" height="39" id="Image9"
+						onmouseover="MM_swapImage('Image9','','imgs/erefefre.png',1)"
+						onmouseout="MM_swapImgRestore()" /></p>
+			</div>
+			<div id="t4">
+				<img src="imgs/team-2.png" width="200" height="200" />
+				<h1>Cecilia </h1>
+				<h2>CHO</h2>
+				<p><img src="imgs/im-sprite.png" width="146" height="39" id="Image10"
+						onmouseover="MM_swapImage('Image10','','imgs/erefefre.png',1)"
+						onmouseout="MM_swapImgRestore()" /></p>
+			</div>
+		</div>
+		<div class="graycolor">
+			<div id="concact" class="centerlog "><a name="concact1" id="concact1"></a>
+				<div id="title4">
+					<h1>Get in touch</h1>
+				</div>
+				<div id="c1">
+					<form id="form1" name="form1" method="post" action="">
+						<p>
+							<label for="textfield"></label>
+							<input type="text" name="textfield" id="textfield" />
+
+
+							<label for="textfield2"></label>
+							<input type="text" name="textfield2" id="textfield2" />
+
+
+							<label for="textfield3"></label>
+							<input type="text" name="textfield3" id="textfield3" />
+
+
+							<label for="textarea"></label>
+							<textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+						</p>
+						<p>
+							<input type="submit" name="button" id="button" value="Submit" />
+							<input type="reset" name="button2" id="button2" value="Resetting" />
+						</p>
+					</form>
+				</div>
+				<div id="c2">
+					<p>Whether customers or want to join our dream catcher, are welcome to contact us. We will seriously
+						treat each a letter, and reply to you within 2 working days. At the same time we are very
+						welcome to give us valuable advice, your advice is our motivation.</p>
+					<div id="q"><img src="imgs/send3.png" width="60" height="60" /></div>
+					<div id="q1">广东省广州市天河区</div>
+
+
+
+
+					<div id="q2"><img src="imgs/send2.png" width="60" height="60" /></div>
+					<div id="q3">18022506387</div>
+					<div id="q4"><img src="imgs/send1.png" width="60" height="60" /></div>
+
+					<div id="q5">994220227@qq.ocm</div>
+
+				</div>
+			</div>
+		</div>
+		<div style="background-color: black">
+				<div class="w">
+						<div id="footer">
+							<div class="links">
+						<a rel="nofollow" target="_blank" href="#">
+							关于我们
+						</a>
+						|
+						<a rel="nofollow" target="_blank" href="#">
+							联系我们
+						</a>
+						|
+						<a rel="nofollow" target="_blank" href="#">
+							人才招聘
+						</a>
+						|
+						<a rel="nofollow" target="_blank" href="#">
+							商家入驻
+						</a>
+						|
+						<a rel="nofollow" target="_blank" href="#">
+							广告服务
+						</a>
+						|
+						<a rel="nofollow" target="_blank" href="#">
+							移动页面
+						</a>
+						|
+						<a target="_blank" href="#">
+							友情链接
+						</a>
+						|
+						<a target="_blank" href="#">
+							销售联盟
+						</a>
+						|
+						<a href="#" >
+							梦翊社区
+						</a>
+						|
+						<a href="#" >
+							梦翊公益
+						</a>
+						|
+						<a target="_blank" href="#" >English Site</a>
+					</div>
+					<div class="copyright">
+						Copyright &copy; 2004-2019  梦翊工作室Dreamyi.club 版权所有
+					</div>
+						</div>
+					</div>
+		</div>
+	</div>
+</body>
+
+</html>
