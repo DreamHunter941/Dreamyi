@@ -1,0 +1,22 @@
+@charset "utf-8";
+#head #navigation ul li a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+#head #navigation ul li a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+
+
+
+#head #navigation ul li a:hover {
+	color: #FFF;
+	text-decoration: none;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	padding-bottom: 10px;
+}

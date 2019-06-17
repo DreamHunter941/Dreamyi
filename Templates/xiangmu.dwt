@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Product</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+#outside {
+	width: 1280px;
+}
+#head {
+	height: 65px;
+	background-color: #000;
+	color: #FFF;
+}
+#head ul li {
+	float: left;
+	margin-left: 40px;
+	font-size: 20px;
+	margin-top: 7px;
+	margin-bottom: 2px;
+	list-style-type: none;
+}
+#head #link ul li a:link {
+	text-decoration: none;
+	color: #FFF;
+}
+#head #link ul li a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+#head #link ul li a:hover {
+	text-decoration: none;
+	color: #FFF;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	padding-bottom: 10px;
+}
+#head img {
+	float: left;
+}
+#head #link {
+	float: left;
+	height: 64px;
+	width: 1087px;
+}
+#title {
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	padding-top: 20px;
+}
+#main {
+	background-color: #f0f0f0;
+	height: 1000px;
+}
+#t {
+	text-align: center;
+}
+#footer {
+	background-color: #000;
+	height: 90px;
+	color: #FFF;
+	text-align: center;
+}
+#footer #f1 {
+	padding-top: 40px;
+}
+#main #n1 {
+	height: 350px;
+	width: 250px;
+	float: left;
+	margin-left: 132px;
+	margin-top: 40px;
+	background-color: #FFF;
+}
+#main h2 {
+	text-align: center;
+}
+#main #n2 {
+	height: 350px;
+	width: 250px;
+	float: left;
+	margin-left: 132px;
+	margin-top: 40px;
+	background-color: #FFF;
+}
+#main #n4 {
+	height: 350px;
+	width: 250px;
+	clear: left;
+	float: left;
+	margin-top: 50px;
+	margin-left: 132px;
+	background-color: #FFF;
+}
+#main #n5 {
+	height: 350px;
+	width: 250px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 132px;
+	background-color: #FFF;
+}
+#main #n6 {
+	height: 350px;
+	width: 250px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 132px;
+	background-color: #FFF;
+}
+#main #title h1 {
+	font-family: "华文隶书";
+	font-size: 60px;
+	text-align: center;
+}
+#main #n3 {
+	float: left;
+	height: 350px;
+	width: 250px;
+	margin-left: 132px;
+	margin-top: 40px;
+	background-color: #FFF;
+}
+#main img {
+	margin-right: 61px;
+	margin-left: 61px;
+	height: 128px;
+	width: 128px;
+	margin-top: 5px;
+}
+</style>
+</head>
+
+<body>
+<div id="outside">
+  <div id="head">
+    <img src="../imgs/LOGO.png" width="159" height="63" />
+    <div id="link">
+    <ul>
+      <li><a href="../Index.html">Home</a></li>
+      <li><a href="../page/ios.html">Iso</a></li>
+      <li><a href="../page/android.html">Android</a></li>
+      <li><a href="../page/windows.html">Windows</a></li>
+      <li><a href="../page/UI.html">UI Design</a></li>
+      <li><a href="../page/SEO.html">SEO Services</a></li>
+      <li><a href="../page/MP.html">MP Services</a></li>
+    </ul>
+    </div>
+  </div>
+  <div id="main">
+
+<div id="title">
+<!-- TemplateBeginEditable name="EditRegion3" -->EditRegio</a>n3<!-- TemplateEndEditable -->
+  <h1></h1>
+</div>
+<div id="n1"><!-- TemplateBeginEditable name="EditRegion4" -->EditRegion4<!-- TemplateEndEditable --></div>
+<div id="n2"><!-- TemplateBeginEditable name="EditRegion5" -->EditRegion5<!-- TemplateEndEditable --></div>
+<div id="n3"><!-- TemplateBeginEditable name="EditRegion6" -->EditRegion6<!-- TemplateEndEditable --></div>
+<div id="n4"><!-- TemplateBeginEditable name="EditRegion7" -->EditRegion7<!-- TemplateEndEditable --></div>
+<div id="n5"><!-- TemplateBeginEditable name="EditRegion8" -->EditRegion8<!-- TemplateEndEditable --></div>
+<div id="n6"><!-- TemplateBeginEditable name="EditRegion9" -->EditRegion9<!-- TemplateEndEditable --></div>
+</div>
+  <div id="footer">
+    <div id="f1">
+  Copyright © 2016 梦翊工作室All Rights Reserved. <br />
+      信管一班杨凯辉20165526116
+      </div>
+  </div>
+</div>
+</body>
+</html>
